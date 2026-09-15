@@ -26,6 +26,7 @@ void display(int arr[SIZE],int n)
 }
 void insert(int arr[SIZE],int *n)
 {
+    /* Insertion at any position */
     int i;
     int pos,value;
     printf("\nEnter the value who insert:");
@@ -49,6 +50,7 @@ void insert(int arr[SIZE],int *n)
 }
 void insertatend(int arr[SIZE],int *n)
 {
+    /* Insertion at end */
     int value;
     printf("\nEnter the number who insert:");
     scanf("%d",&value);
@@ -58,6 +60,7 @@ void insertatend(int arr[SIZE],int *n)
 }
 void insertatbig(int arr[SIZE],int *n)
 {
+    /* Insertion at beginning */
     int value,i;
     printf("\nEnter the number who insert:");
     scanf("%d",&value);
