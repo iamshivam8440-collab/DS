@@ -1,0 +1,56 @@
+                             || PRACTICE QUESTION ||
+
+1. Write a C program to check a number is entered by user is an Armstrong number or not by user defined function 
+2.  Write a C program to check which number is greatest among three numbers entered by user using user defined function.
+3.  Write a C program to check which number is greatest among two numbers entered by user using user defined function. 
+4. Write a C program to check a number is entered by user is a Leap year or not using user defined function. 
+5. Write a C program to print sum of 1st and 3rd digits of any 5 digits number entered by user using user defined function. 
+6. Write a C program to check a number is entered by user is a prime number or not. 
+7. Write a C program to print the multiplication table of a number upto n using user defined function 
+8. Write a C program to print the sum of the digits of any five digits number entered  by user using user defined function. 
+9. Write a C program to print the reverse of any 5 digits number under integer range entered by user using user defined function. 
+10. Write a C program to calculate selection of n objects from r objects, n & r are  entered  by user using user defined function.  
+11. Write a C Program to calculate the factorial of any number using recursion, using user defined function.  
+12. Write a C Program to calculate the gcd of two number using recursion, numbers are entered by user using user defined function.  
+13. Write a C program to check a number is entered by user is a palindrome number or not using user defined function.            
+14. Write a C program  to input values into an array & display it by using user defined function.            
+15. Write a C program  to count the even and odd number in the array by using user defined function.           
+16.  Write a C program  to find the maximum and minimum number in the array by using user defined function. 
+17. Write a C program  to add the elements of two integer array and store them into third array by using user defined function. 
+18. Write a C program  to calculate the average marks of  students using array by using user defined function. 
+19. Write a C program  to convert a decimal number to binary number by using user defined function 
+20. Write a C program  passing one dimensional array elements to a function by using user defined function. 
+21. Write a C program  to enter elements in a one dimension array and print whether they are even or odd by using user defined function. 
+22. Write a C program  to understand the effect of passing an array to a function by using user defined function. 
+23. Write a C program  to insert a element in an array by using user defined function. 
+24. Write a C program  to delete an element from an array by using user defined function. 
+25. Write a C program  to search an element by using linear search method by using user defined function. 
+26. Write a C program  to search an element by using binary  search method when inputs elements  are in ascending order by using user defined function. 
+27. Write a C program  to sort the given array by insertion technique by using user defined function. 
+28. Write a menu based C program to perform the following operations in 1d arrays by using user defined function:
+ (1) Addition of two 1d array.
+ (2) Subtraction of two 1d array.
+ (3) Transpose of 1d array.
+ (4)  Exit 
+29. Write a menu based C program to perform the following operations in 1d arrays by using user defined function:
+ (1) Insert an element at the beginning in 1d array.
+ (2) Insert an element at any position in 1d array 
+ (3) Insert an element at the last in 1d array 
+ (4)  Delete an element from the beginning from 1d array.
+ (5) Delete an element at any position from 1d array. (6)Exit 
+30. Write a menu based C program to perform the following operations in 1d arrays by using user defined function:
+ (1) Searching an element in 1d array 
+ (2) Sorting an element of 1d array. 
+ (3) Exit 
+31. Write a C program  to enter elements in 2-d array. Also print the elements in matrix form by using user defined function. 
+32. Write a C program  to accept 2-D array  and display the sum of all the elements by using user defined function. 
+33. Write a menu based C program to perform the following operations in 2d arrays by using user defined function:
+ (1) Addition of 2d matrix .
+ (2) Subtraction of 2 d matrix.
+ (3) Multiplication of two matrices.
+ (4) Transpose of any matrix. 
+ (5) Exit 
+34. Write a C program  to display lower triangular matrix of 3*3 matrix by using user defined function. 
+35. Write a C program  to calculate the sum of the elements of lower triangular matrix by using user defined function. 
+36.  Write a C program to check that the given matrix is a sparse matrix or not by user defined function. 
+37. Write a C program to enter an element in a sparse matrix  and display a sparse matrix in three tupple representation.
