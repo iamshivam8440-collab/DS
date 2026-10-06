@@ -30,8 +30,9 @@
 28. Write a menu based C program to perform the following operations in 1d arrays by using user defined function:
  (1) Addition of two 1d array.
  (2) Subtraction of two 1d array.
- (3) Transpose of 1d array.
- (4)  Exit 
+ (3) Average of 5 subject marks of a student
+ (4) Transpose of 1d array.
+ (5)  Exit 
 29. Write a menu based C program to perform the following operations in 1d arrays by using user defined function:
  (1) Insert an element at the beginning in 1d array.
  (2) Insert an element at any position in 1d array 

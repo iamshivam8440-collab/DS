@@ -1,11 +1,13 @@
-/* Addition,subtraction of 1D array and average of five student marks */
+/* Addition,subtraction,transpose of 1D array and average of five student marks */
 #include <stdio.h>
+#include <stdlib.h>
 #define SIZE 50
 void input(int[], int);
 void display(int[], int);
 void add(int[], int[], int[], int);
 void sub(int[], int[], int[], int);
 void avg(int[], int);
+void transpose(int[], int);
 void input(int mat1[SIZE], int n)
 {
 	/* Input function */
@@ -60,6 +62,14 @@ void avg(int mat1[SIZE], int n)
 	avrg = mat3 / n;
 	printf("Average of marks:%.2f\n", avrg);
 }
+void transpose(int mat1[SIZE], int n)
+{
+	for (int i = 0; i < n; i++)
+	{
+		printf("%d", mat1[i]);
+		printf("\n");
+	}
+}
 int main()
 {
 	int mat1[SIZE], mat2[SIZE], mat3[SIZE], n;
@@ -70,7 +80,8 @@ int main()
 		printf("Press 1 for addition of 1D array:\n");
 		printf("Press 2 for subtraction of 1D array:\n");
 		printf("Press 3 for average of 5 subject marks:\n");
-		printf("Press 4 for exit program:\n");
+		printf("Press 4 for transpose of 1D array:\n");
+		printf("Press 5 for exit program:\n");
 		printf("-------------------------------------------\n\n");
 		printf("Enter your choice:");
 		scanf("%d", &choice);
@@ -115,8 +126,21 @@ int main()
 			printf("******************************\n\n");
 			break;
 		case 4:
+			printf("\nTranspose of 1D array:");
+			printf("\nEnter the size of array:");
+			scanf("%d", &n);
+			input(mat1, n);
+			printf("\n1D array is:");
+			display(mat1, n);
+			printf("Transpose array is:\n");
+			transpose(mat1, n);
+			break;
+		case 5:
 			printf("Exit from program:\n");
 			exit(0);
+			break;
+		default:
+			printf("Invalid input!\n");
 			break;
 		}
 	} while (choice != 4);
